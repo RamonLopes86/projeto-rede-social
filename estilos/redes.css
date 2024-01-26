@@ -15,58 +15,59 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    width: 100vw;
     
 }
 
+.logos{
 
-.logo-rede{
+    text-align: right;
+}
+
+
+.logos .logo-rede{
     
-    width:42px;
+    
+    width: 42px;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
-    position: absolute;
-    margin-top: -30px;
+    right: 0px;
+    margin:10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
     
-    
-    
- 
+          
 }
 
 .logo-rede:hover{
-    
-    width: 46px;
-    transition-duration: 200ms;
-    border: 2px solid white;
+
+border: 1px solid white ;
+
 }
-
-
-ul{
-
-    text-align: right;
-    margin-right:40px;
-    list-style-type: none;
-    
-}
-
-li{
-    padding: 5px 0px;
-    margin-top:25px;
-    padding-top:25px;
-    margin-right:30px;
-    
-    
-   
-}
-
 
 
 
 
 .celular{
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   
-    text-align: center;
-    margin-top: -150px;
+    
      
+}
+
+.home{
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 471px;
+    width: 268px;
+    
+    
 }
 
 
