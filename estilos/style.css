@@ -52,15 +52,15 @@ img{
 
 li{
     padding-top: 8px;
-    padding-right: 15px;
+    padding-right: 5px;
     margin-top: 8px;
-    margin-right: 10px;
+    
 
 }
 
 img:hover{
     border: 2px solid white;
-    margin-right:5px ;
+    margin-right:2px ;
     transition: border 600ms;
     transition: margin-right 300ms;
     
@@ -78,15 +78,6 @@ img:hover{
     border: 2px solid black;
 }
 
-#botao:hover{
-    
-    background-color: rgba(233, 150, 122, 0.315);
-   
-    transition: 400ms;
-
-    
-    
-}
 
 
 
